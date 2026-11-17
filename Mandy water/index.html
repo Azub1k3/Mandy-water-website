@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mandy Water — Home of Purity. Premium water, beverages and ice for homes, businesses and events.">
+  <meta name="theme-color" content="#061b49">
+  <title>Mandy Water — Home of Purity</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<div id="splash" class="splash" aria-label="Welcome to Mandy Water">
+  <div class="splash-water"><span></span><span></span><span></span><span></span></div>
+  <div class="splash-ripple"></div>
+  <div class="splash-content">
+    <div class="splash-logo-mark">M</div>
+    <p class="splash-kicker">PURE • REFRESHING • TRUSTED</p>
+    <h1>Welcome to <span>Mandy Water</span></h1>
+    <p>Home of Purity</p>
+  </div>
+</div>
+
+<header class="site-header" id="top">
+  <a href="#home" class="brand">
+    <img src="images/logo.png" alt="Mandy Water logo">
+    <span class="brand-fallback">Mandy <em>Water</em></span>
+  </a>
+
+  <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+
+  <nav class="main-nav" id="mainNav">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#quality">Quality</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact Us</a>
+  </nav>
+
+  <a class="nav-order" data-order href="#" target="_blank" rel="noopener">
+    Order Now <span>↗</span>
+  </a>
+</header>
+
+<main>
+
+<section class="hero" id="home">
+  <div class="hero-overlay"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-content reveal">
+    <p class="eyebrow">PREMIUM PURITY</p>
+    <h1>Home of <span>Purity.</span></h1>
+    <p class="hero-copy">
+      Mandy Water is committed to delivering clean, refreshing and carefully packaged
+      products for homes, businesses, events and everyday life.
+    </p>
+
+    <div class="hero-points">
+      <div><b>◯</b><span><strong>100% PURE</strong><small>Carefully processed</small></span></div>
+      <div><b>✦</b><span><strong>SAFE & TRUSTED</strong><small>Quality-focused production</small></span></div>
+      <div><b>⌁</b><span><strong>REFRESHING</strong><small>Clean and enjoyable</small></span></div>
+    </div>
+
+    <div class="hero-actions">
+      <a href="#gallery" class="btn btn-primary">Explore Products <span>→</span></a>
+    </div>
+  </div>
+
+  <div class="hero-badge reveal">
+    <span class="drop-icon">◈</span>
+    <strong>...Home of Purity</strong>
+    <small>Quality • Care • Refreshment</small>
+  </div>
+
+  <div class="scroll-cue">Scroll to discover <span>↓</span></div>
+</section>
+
+<section class="section about" id="about">
+  <div class="section-head reveal">
+    <p class="eyebrow">WHO WE ARE</p>
+    <h2>Pure products. <span>Purposeful service.</span></h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-card reveal">
+      <span class="number">01</span>
+      <h3>About Mandy Water</h3>
+      <p class="editable-copy">
+        Mandy Premium Water is purified through a multistage process of filtration, reverse osmosis and ozonation.
+        Mandy Premium Water meets the highest quality standard.
+        Produced and packaged by HACDIC NIG LTD.
+      </p>
+    </div>
+    <div class="about-feature reveal">
+      <div class="feature-orbit"></div>
+      <div class="feature-drop">M</div>
+      <p>HOME OF PURITY</p>
+    </div>
+  </div>
+</section>
+
+<section class="section gallery" id="gallery">
+  <div class="section-head reveal">
+    <p class="eyebrow">OUR COLLECTION</p>
+    <h2>Discover the <span>Mandy Water</span> range.</h2>
+    <p>Explore each product and open its dedicated product experience.</p>
+  </div>
+
+  <div class="product-grid" id="productGrid">
+
+    <article class="product-card reveal" data-product="bottled">
+      <div class="product-image">
+        <img src="images/bottle-water.png" alt="Mandy bottled water" loading="lazy">
+        <span class="product-tag">WATER</span>
+      </div>
+      <div class="product-info">
+        <p>01 / HYDRATION</p>
+        <h3>Mandy Bottled Water</h3>
+        <span>Pure • Crisp • Refreshing</span>
+        <button class="view-product">View Product <b>→</b></button>
+      </div>
+    </article>
+
+    <article class="product-card reveal" data-product="sachet">
+      <div class="product-image">
+        <img src="images/sachet-water.png" alt="Mandy sachet water" loading="lazy">
+        <span class="product-tag">WATER</span>
+      </div>
+      <div class="product-info">
+        <p>02 / EVERYDAY</p>
+        <h3>Mandy Sachet Water</h3>
+        <span>Clean • Convenient • Refreshing</span>
+        <button class="view-product">View Product <b>→</b></button>
+      </div>
+    </article>
+
+    <article class="product-card reveal" data-product="zobo">
+      <div class="product-image">
+        <img src="images/zobo.png" alt="Mandy Roselle Zobo drink" loading="lazy">
+        <span class="product-tag">DRINK</span>
+      </div>
+      <div class="product-info">
+        <p>03 / REFRESHMENT</p>
+        <h3>Mandy Roselle Zobo</h3>
+        <span>Rich • Natural • Full-flavoured</span>
+        <button class="view-product">View Product <b>→</b></button>
+      </div>
+    </article>
+
+    <article class="product-card reveal" data-product="tigernut">
+      <div class="product-image">
+        <img src="images/tigernut-drink.png" alt="Mandy Tigernut Drink" loading="lazy">
+        <span class="product-tag">DRINK</span>
+      </div>
+      <div class="product-info">
+        <p>04 / NATURAL</p>
+        <h3>Mandy Tigernut Drink</h3>
+        <span>Creamy • Naturally inspired • Smooth</span>
+        <button class="view-product">View Product <b>→</b></button>
+      </div>
+    </article>
+
+    <article class="product-card reveal" data-product="dispenser">
+      <div class="product-image">
+        <img src="images/Mandy 19L Dispenser Water.png" alt="Mandy 19 litre dispenser water" loading="lazy">
+        <span class="product-tag">19L</span>
+      </div>
+      <div class="product-info">
+        <p>05 / DISPENSER</p>
+        <h3>Mandy 19L Dispenser Water</h3>
+        <span>Reliable • Hygienic • Convenient</span>
+        <button class="view-product">View Product <b>→</b></button>
+      </div>
+    </article>
+
+    <article class="product-card reveal" data-product="ice">
+      <div class="product-image">
+        <img src="images/mandy-ice.png" alt="Mandy Ice" loading="lazy">
+        <span class="product-tag">ICE</span>
+      </div>
+      <div class="product-info">
+        <p>06 / COOLING</p>
+        <h3>Mandy Ice</h3>
+        <span>Pure • Clean • Refreshing</span>
+        <button class="view-product">View Product <b>→</b></button>
+      </div>
+    </article>
+
+    <article class="product-card reveal" data-product="richcream">
+      <div class="product-image">
+        <img src="images/Mandy Deluxe Dry Gin.png" alt="Mandy DeluxeDry Gin" loading="lazy">
+        <span class="product-tag">CREAM</span>
+      </div>
+      <div class="product-info">
+        <p>07 / VELVETY</p>
+        <h3>Mandy Deluxe Dry Gin</h3>
+        <span>Rich • Smooth • Indulgent</span>
+        <button class="view-product">View Product <b>→</b></button>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section class="quality section" id="quality">
+  <div class="quality-inner">
+    <div class="section-head reveal">
+      <p class="eyebrow">OUR STANDARD</p>
+      <h2>Quality you can <span>see, feel and trust.</span></h2>
+    </div>
+    <div class="quality-grid">
+      <div class="quality-item reveal"><b>01</b><h3>Careful Processing</h3><p>Built around cleanliness, consistency and attention to detail.</p></div>
+      <div class="quality-item reveal"><b>02</b><h3>Hygienic Packaging</h3><p>Products are prepared and packaged with customer safety in mind.</p></div>
+      <div class="quality-item reveal"><b>03</b><h3>Customer Focus</h3><p>Designed to serve households, events, businesses and everyday needs.</p></div>
+      <div class="quality-item reveal"><b>04</b><h3>Reliable Service</h3><p>A straightforward ordering experience backed by responsive communication.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section faq" id="faq">
+  <div class="section-head reveal">
+    <p class="eyebrow">QUESTIONS & ANSWERS</p>
+    <h2>Everything you need to <span>know.</span></h2>
+  </div>
+
+  <div class="faq-list">
+    <details class="reveal">
+      <summary>Where are you located?<span>+</span></summary>
+      <p>We are located at No. 35 Alhaja Mustapha Street, Ago Palace Way.</p>
+    </details>
+    <details class="reveal">
+      <summary>Do you accept bulk orders?<span>+</span></summary>
+      <p>Yes. Mandy Water welcomes bulk and event orders. Contact us with your required products, quantities and preferred delivery details so our team can provide the appropriate arrangement.</p>
+    </details>
+    <details class="reveal">
+      <summary>What products do you sell?<span>+</span></summary>
+      <p>Our range includes bottled water, sachet water, 19-litre dispenser water, Zobo, Tigernut Drink, Mandy Ice and Rich Cream. Product availability may vary, so please contact us for current stock information.</p>
+    </details>
+    <details class="reveal">
+      <summary>How can I place an order?<span>+</span></summary>
+      <p>Use the Order Now button to start a WhatsApp conversation with Mandy Water. Tell us the product, quantity and any relevant delivery information, and our team will guide you through the next steps.</p>
+    </details>
+    <details class="reveal">
+      <summary>Do you supply homes, businesses and events?<span>+</span></summary>
+      <p>Yes. Our products can be arranged for everyday household needs, offices, celebrations, events and other approved supply requirements.</p>
+    </details>
+    <details class="reveal">
+      <summary>How can I contact Mandy Water?<span>+</span></summary>
+      <p>You can contact us by WhatsApp, phone or email using the contact details provided below. Replace the placeholders in the HTML with your official business details before publishing.</p>
+    </details>
+  </div>
+</section>
+
+<section class="section contact" id="contact">
+  <div class="contact-panel reveal">
+    <div>
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2>Ready for your next <span>order?</span></h2>
+      <p>Reach Mandy Water directly for product information, bulk enquiries and orders.</p>
+    </div>
+    <div class="contact-details">
+      <!-- Replace this phone number before launch -->
+      <a href="tel:+2349130542003" class="contact-link">
+        <small>CALL US</small>
+        <strong>+2349130542003</strong>
+      </a>
+      <!-- Replace the email address in both the text and mailto link -->
+      <a href="hacdicnigltd@gmail.com" class="contact-link">
+        <small>EMAIL US</small>
+        <strong>hacdicnigltd@gmail.com</strong>
+      </a>
+      <a data-order href="#" target="_blank" rel="noopener" class="contact-link whatsapp-link">
+        <small>WHATSAPP</small>
+        <strong>Start a conversation →</strong>
+      </a>
+    </div>
+  </div>
+
+  <div class="newsletter reveal">
+    <div>
+      <p class="eyebrow">STAY CONNECTED</p>
+      <h3>Get Mandy Water updates.</h3>
+      <p>Enter an email address for announcements and business updates.</p>
+    </div>
+    <form id="newsletterForm">
+      <input type="email" id="signupEmail" placeholder="Your email address" required>
+      <button type="submit">Sign Up <span>→</span></button>
+    </form>
+    <small id="formMessage" class="form-message"></small>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-top">
+    <a href="#home" class="brand footer-brand">
+      <img src="images/logo.png" alt="Mandy Water logo">
+      <span class="brand-fallback">Mandy <em>Water</em></span>
+    </a>
+    <p>Home of Purity.</p>
+    <div class="socials" aria-label="Social media">
+      <!-- Replace # with your official URLs -->
+      <a href="https://www.tiktok.com/@mandy.water2?_r=1&_t=ZS-9AOY9ytNVsC" aria-label="Tiktok"><i class="fa-brands fa-tiktok"></i></a>
+      <a href="https://www.instagram.com/mandy.water" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.youtube.com/@mandy.water" aria-label="Youtube"><i class="fa-brands fa-youtube"></i></a>
+      <a href="https://www.facebook.com/mandy.water" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://twitter.com/mandy.water" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© <span id="year"></span> Mandy Water. All rights reserved.</span>
+    <a href="#home">Back to top ↑</a>
+  </div>
+</footer>
+
+<div class="product-modal" id="productModal" aria-hidden="true">
+  <button class="modal-close" id="modalClose" aria-label="Close product view">×</button>
+  <div class="modal-inner">
+    <div class="modal-media" id="modalMedia">
+      <img id="modalImage" src="" alt="">
+      <div class="media-glow"></div>
+    </div>
+    <div class="modal-copy">
+      <p class="eyebrow" id="modalKicker"></p>
+      <h2 id="modalTitle"></h2>
+      <p id="modalDescription"></p>
+      <div class="modal-points" id="modalPoints"></div>
+      <div class="modal-actions">
+        <a href="#" data-order class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp <span>→</span></a>
+      </div>
+      <small class="drag-hint">Move your pointer over the product to explore the 3D-style motion.</small>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
